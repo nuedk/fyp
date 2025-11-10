@@ -1,0 +1,27 @@
+numpy<2.0
+backoff
+pandas
+openai
+anthropic
+Pillow>=10.0.0,<11.0.0
+packaging>=16.8,<24
+python-dotenv
+fastapi
+uvicorn
+paddleocr
+paddlepaddle
+scikit-learn
+websockets
+tiktoken
+pyautogui
+toml
+black
+pytesseract
+google-genai
+umap-learn>=0.5.6,<0.6.0
+pyscreeze>=0.1.29
+
+# Platform-specific dependencies
+pyobjc; platform_system == "Darwin"
+pywinauto; platform_system == "Windows"
+pywin32; platform_system == "Windows" 
